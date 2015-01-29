@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+	<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="tommy.js"></script>
+</head>
+<body>
+
+	<ul>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+		<li></li>
+	</ul>
+
+	<input name="email" type="name" value="bob@smith.com">
+	
+	<script>
+		tommy.comeAtMeBro();
+
+		jQuery(function($){
+			$('ul li').each(function(i){
+				$(this).text(i);
+			});
+
+			$('li').eq(3).hide();
+
+			$('input').attr('type', 'name');
+			$('input').val();
+		});
+	</script>
+</body>
+</html>
